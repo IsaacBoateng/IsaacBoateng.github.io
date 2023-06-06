@@ -1,0 +1,88 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.tarticle {
+  width: 100%;
+  padding: 25px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background: #fff;
+}
+.tarticle .tfigure {
+  display: flex;
+  margin: 25px 0;
+  justify-content: center;
+}
+.tarticle .tfigcaption {
+  text-align: center;
+  font: italic 16px/20px Georgia, serif;
+  color: #000;
+}
+.tarticle .timg {
+  width: 80%;
+}
+.tarticle .th1 {
+  padding-top: 40px;
+  display: flex;
+  font: normal 80px/100px "Bree Serif", serif;
+  font-weight: bold;
+  margin-top: 25px;
+  margin: 10px 0 35px;
+  justify-content: center;
+}
+.tarticle .th2 {
+  font: normal 30px/40px "Bree Serif", serif;
+  margin: 25px 0 0;
+}
+.tarticle .th5 {
+  font: normal 15px/20px "Bree Serif", serif;
+  margin: 0;
+  color: #777;
+}
+.tarticle .th1 + .th5 {
+  margin: -35px 0 35px;
+}
+.tarticle .tp {
+  margin: 10px 0;
+  font: normal 18px/24px Georgia, serif;
+  color: #111;
+}
+.tarticle .ti {
+  color: #555;
+}
+.tarticle .ta {
+  color: #2a75ed;
+}
+
+.tlist {
+  display: flex;
+  justify-content: center;
+}
+
+.pu {
+  padding-top: 100px;
+  width: 400px;
+}
+
+.pi {
+  width: 400px;
+}
+
+.ims {
+  width: 50px;
+  height: 50px;
+}
+
+.hifi{
+  width: 600px;
+  height: 600px;
+}
+
+@media (min-width: 768px) {
+  .tarticle {
+    margin: 50px auto;
+  }
+}
